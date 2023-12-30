@@ -1,0 +1,68 @@
+name: hp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  awesome_dialog: ^3.0.0
+  cr_calendar: ^1.0.0
+  cupertino_icons: ^1.0.2
+  custom_floating_action_button: ^0.0.3
+  dartz: ^0.10.1
+  either_dart: ^0.2.0
+  flip_card: ^0.6.0
+  flutter:
+    sdk: flutter
+  flutter_custom_clippers: ^2.0.0
+  flutter_inset_box_shadow: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.5
+  liquid_pull_to_refresh: ^3.0.1
+  lottie: ^1.4.1
+  flutter_chess_board: ^1.0.1
+  salomon_bottom_bar: ^3.3.1
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - lot/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CrimsonText
+      fonts:
+        - asset: fonts/CrimsonText-Regular.ttf
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
